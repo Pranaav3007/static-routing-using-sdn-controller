@@ -119,6 +119,9 @@ static int compare_index_entries(const void *a, const void *b) {
 
 static int append_tree_entry(Tree *tree, uint32_t mode, const ObjectID *hash, const char *name) {
     if (tree->count >= MAX_TREE_ENTRIES) return -1;
+    for (int i = 0; i < tree->count; i++) {
+        if (strcmp(tree->entries[i].name, name) == 0) return -1;
+    }
 
     TreeEntry *entry = &tree->entries[tree->count++];
     entry->mode = mode;
