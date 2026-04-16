@@ -43,3 +43,11 @@ PES_AUTHOR="PES User <PES1UG24AM387>"
 Equivalent to the README's `xxd .pes/objects/XX/YYY... | head -20` requirement.
 
 ![Screenshot 2B](screenshots/2B-tree-hexdump.png)
+
+## Phase 3
+
+### Screenshot 3A - `pes init` -> `pes add` -> `pes status`
+![Screenshot 3A](screenshots/3A-init-add-status.png)
+
+### Screenshot 3B - `cat .pes/index`
+![Screenshot 3B](screenshots/3B-index.png)
