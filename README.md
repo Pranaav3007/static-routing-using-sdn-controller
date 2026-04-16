@@ -51,3 +51,19 @@ Equivalent to the README's `xxd .pes/objects/XX/YYY... | head -20` requirement.
 
 ### Screenshot 3B - `cat .pes/index`
 ![Screenshot 3B](screenshots/3B-index.png)
+
+## Phase 4
+
+### Screenshot 4A - `pes log`
+![Screenshot 4A](screenshots/4A-log.png)
+
+### Screenshot 4B - `find .pes -type f | sort`
+![Screenshot 4B](screenshots/4B-find-pes-sort.png)
+
+### Screenshot 4C - `cat .pes/refs/heads/main` and `cat .pes/HEAD`
+![Screenshot 4C](screenshots/4C-head-and-ref.png)
+
+## Final Integration Test
+
+### `make test-integration`
+![Final Integration Test](screenshots/final-test-integration.png)
