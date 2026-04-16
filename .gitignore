@@ -2,10 +2,12 @@
 pes
 test_objects
 test_tree
+*.exe
 
 # Object files
 *.o
 *.obsidian
+compat/*.a
 
 # PES repository (created during testing)
 .pes/
