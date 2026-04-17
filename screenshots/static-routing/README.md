@@ -4,9 +4,20 @@ Store all assignment proof artifacts for the SDN project inside this directory.
 
 ## Folders
 
-- `code/`: text captures of the important source files
-- `logs/`: command outputs such as unit test logs, `ping`, `iperf`, and `ovs-ofctl dump-flows`
+- `code/`: PNG screenshots and text captures of the important source files
+- `logs/`: PNG screenshots and command outputs such as unit test logs, `ping`, `iperf`, and `ovs-ofctl dump-flows`
 - `live-demo/`: final screenshots captured on the Ubuntu Mininet machine
+
+## Generated Code Screenshots
+
+- `code/README*.png`
+- `code/REPORT*.png`
+- `code/routing_policy*.png`
+- `code/static_routing_controller*.png`
+- `code/static_routing_topology*.png`
+- `code/test_routing_policy*.png`
+- `logs/test-routing-policy.png`
+- `logs/compileall.png`
 
 ## Recommended Live Demo Files
 
