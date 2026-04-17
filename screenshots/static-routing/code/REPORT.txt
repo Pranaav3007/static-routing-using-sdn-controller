@@ -2,7 +2,7 @@
 
 ## Title
 
-Static Routing Using SDN Controller Installed Flow Rules
+Static Routing using SDN Controller Installed Flow Rules
 
 ## Objective
 

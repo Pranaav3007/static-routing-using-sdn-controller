@@ -1,4 +1,4 @@
-# Static Routing Using SDN Controller
+# Static Routing using SDN Controller
 
 This repository contains an SDN Mininet simulation project that demonstrates static routing using controller-installed OpenFlow rules. The implementation uses a custom Mininet topology and a Ryu controller that reacts to `packet_in` events, chooses predefined paths, installs exact match-action rules, and preserves the same path after rule reinstallation.
 

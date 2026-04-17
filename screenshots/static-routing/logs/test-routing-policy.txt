@@ -4,6 +4,6 @@ test_primary_route_is_selected_for_h1_to_h2 (tests.test_routing_policy.StaticRou
 test_reinstall_keeps_same_flow_signature (tests.test_routing_policy.StaticRoutingPolicyTests.test_reinstall_keeps_same_flow_signature) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.001s
 
 OK
