@@ -1,12 +1,13 @@
-Capture these screenshots on the Ubuntu Mininet machine:
+Capture these screenshots on the Ubuntu Mininet machine and save them in screenshots/ with these exact names:
 
-1. Mininet startup with all switches connected to the controller
-2. Controller log showing flow installation for h1 to h2
-3. Allowed ping: h1 ping -c 3 h2
-4. Blocked ping: h1 ping -c 2 h4
-5. Throughput test: h2 iperf -c 10.0.0.1 -t 5
-6. Flow dump of s1
-7. Flow dump of s2
-8. Flow dump of s4
-9. Reinstall validation before deleting flow rules
-10. Reinstall validation after controller reinstalls the same route
+1. 01-topology-startup.png
+2. 02-controller-log-routing.png
+3. 03-allowed-ping-h1-h2.png
+4. 04-blocked-ping-h1-h4.png
+5. 05-iperf-h2-to-h1.png
+6. 06-flow-table-s1.png
+7. 07-flow-table-s2.png
+8. 08-flow-table-s4.png
+9. 09-reinstall-validation-before.png
+10. 10-reinstall-validation-after.png
+11. Optional: 11-wireshark-capture.png

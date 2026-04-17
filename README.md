@@ -21,8 +21,8 @@ The objective is to implement deterministic forwarding paths in an SDN network. 
 - `scripts/run_demo.sh`: helper to launch the controller and Mininet
 - `scripts/collect_flow_dumps.sh`: helper to save switch flow tables
 - `REPORT.md`: full report for submission
-- `screenshots/`: screenshot images with submission-ready naming
-- `validation/`: text logs used to generate validation screenshots
+- `screenshots/`: Mininet output screenshots for the final demo
+- `validation/`: supporting text logs and capture checklist
 
 ## Topology
 
@@ -149,17 +149,22 @@ These tests verify:
 
 ## Screenshots and Proof
 
-All screenshots are stored directly under `screenshots/` with numbered names so they are easy to submit and review.
+The `screenshots/` folder is reserved only for final Mininet output evidence captured on the Ubuntu demo machine. Use these names:
 
-- `01-readme-page-*.png`: README screenshots
-- `02-report-page-*.png`: report screenshots
-- `03-routing-policy-page-*.png`: routing policy code screenshots
-- `04-static-routing-controller-page-*.png`: controller code screenshots
-- `05-topology-page*.png`: Mininet topology code screenshots
-- `06-routing-test-page*.png`: regression test code screenshot
-- `07-routing-test-log*.png`: unit test output screenshot
-- `08-compileall-log*.png`: compile validation output screenshot
-- `09-live-demo-checklist*.png`: checklist of live Mininet screenshots to capture on Ubuntu
+- `01-topology-startup.png`
+- `02-controller-log-routing.png`
+- `03-allowed-ping-h1-h2.png`
+- `04-blocked-ping-h1-h4.png`
+- `05-iperf-h2-to-h1.png`
+- `06-flow-table-s1.png`
+- `07-flow-table-s2.png`
+- `08-flow-table-s4.png`
+- `09-reinstall-validation-before.png`
+- `10-reinstall-validation-after.png`
+
+Optional:
+
+- `11-wireshark-capture.png`
 
 ## References
 

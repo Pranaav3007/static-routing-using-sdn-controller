@@ -160,11 +160,21 @@ The repository also includes a Python unit test that verifies the computed flow 
 
 ## Proof of Execution
 
-This Windows workspace does not provide Mininet or Open vSwitch, so the live packet forwarding screenshots must be captured on the Ubuntu demo machine. The repository is already prepared for that final step:
+This Windows workspace does not provide Mininet or Open vSwitch, so the required proof screenshots must be captured on the Ubuntu demo machine. The repository is prepared so that only final Mininet output screenshots go into `screenshots/`, while supporting text logs can stay in `validation/`.
 
-- keep the generated submission screenshots in `screenshots/`
-- keep raw validation text logs in `validation/`
-- add the final Mininet and Wireshark screenshots to `screenshots/` using the next numbered names
+Recommended screenshot names:
+
+- `01-topology-startup.png`
+- `02-controller-log-routing.png`
+- `03-allowed-ping-h1-h2.png`
+- `04-blocked-ping-h1-h4.png`
+- `05-iperf-h2-to-h1.png`
+- `06-flow-table-s1.png`
+- `07-flow-table-s2.png`
+- `08-flow-table-s4.png`
+- `09-reinstall-validation-before.png`
+- `10-reinstall-validation-after.png`
+- optional: `11-wireshark-capture.png`
 
 ## References
 
