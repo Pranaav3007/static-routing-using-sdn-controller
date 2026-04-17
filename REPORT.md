@@ -155,15 +155,16 @@ The repository also includes a Python unit test that verifies the computed flow 
 - `scripts/run_demo.sh`
 - `scripts/collect_flow_dumps.sh`
 - `README.md`
-- `screenshots/static-routing/`
+- `screenshots/`
+- `validation/`
 
 ## Proof of Execution
 
 This Windows workspace does not provide Mininet or Open vSwitch, so the live packet forwarding screenshots must be captured on the Ubuntu demo machine. The repository is already prepared for that final step:
 
-- save terminal captures and flow dumps in `screenshots/static-routing/logs/`
-- save live screenshots in `screenshots/static-routing/live-demo/`
-- keep code captures in `screenshots/static-routing/code/`
+- keep the generated submission screenshots in `screenshots/`
+- keep raw validation text logs in `validation/`
+- add the final Mininet and Wireshark screenshots to `screenshots/` using the next numbered names
 
 ## References
 

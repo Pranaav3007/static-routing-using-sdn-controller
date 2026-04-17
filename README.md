@@ -21,7 +21,8 @@ The objective is to implement deterministic forwarding paths in an SDN network. 
 - `scripts/run_demo.sh`: helper to launch the controller and Mininet
 - `scripts/collect_flow_dumps.sh`: helper to save switch flow tables
 - `REPORT.md`: full report for submission
-- `screenshots/static-routing/`: proof artifacts, code captures, and live-demo placeholders
+- `screenshots/`: screenshot images with submission-ready naming
+- `validation/`: text logs used to generate validation screenshots
 
 ## Topology
 
@@ -148,11 +149,17 @@ These tests verify:
 
 ## Screenshots and Proof
 
-All submission artifacts are organized under `screenshots/static-routing/`.
+All screenshots are stored directly under `screenshots/` with numbered names so they are easy to submit and review.
 
-- `code/`: text captures of the controller, topology, tests, README, and report
-- `logs/`: saved command outputs and flow dumps
-- `live-demo/`: placeholders for the final Mininet, Wireshark, ping, `iperf`, and flow-table screenshots
+- `01-readme-page-*.png`: README screenshots
+- `02-report-page-*.png`: report screenshots
+- `03-routing-policy-page-*.png`: routing policy code screenshots
+- `04-static-routing-controller-page-*.png`: controller code screenshots
+- `05-topology-page*.png`: Mininet topology code screenshots
+- `06-routing-test-page*.png`: regression test code screenshot
+- `07-routing-test-log*.png`: unit test output screenshot
+- `08-compileall-log*.png`: compile validation output screenshot
+- `09-live-demo-checklist*.png`: checklist of live Mininet screenshots to capture on Ubuntu
 
 ## References
 

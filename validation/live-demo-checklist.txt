@@ -1,0 +1,12 @@
+Capture these screenshots on the Ubuntu Mininet machine:
+
+1. Mininet startup with all switches connected to the controller
+2. Controller log showing flow installation for h1 to h2
+3. Allowed ping: h1 ping -c 3 h2
+4. Blocked ping: h1 ping -c 2 h4
+5. Throughput test: h2 iperf -c 10.0.0.1 -t 5
+6. Flow dump of s1
+7. Flow dump of s2
+8. Flow dump of s4
+9. Reinstall validation before deleting flow rules
+10. Reinstall validation after controller reinstalls the same route
