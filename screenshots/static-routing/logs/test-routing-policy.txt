@@ -1,0 +1,9 @@
+test_disallowed_pair_is_blocked (tests.test_routing_policy.StaticRoutingPolicyTests.test_disallowed_pair_is_blocked) ... ok
+test_flow_plan_matches_expected_ports (tests.test_routing_policy.StaticRoutingPolicyTests.test_flow_plan_matches_expected_ports) ... ok
+test_primary_route_is_selected_for_h1_to_h2 (tests.test_routing_policy.StaticRoutingPolicyTests.test_primary_route_is_selected_for_h1_to_h2) ... ok
+test_reinstall_keeps_same_flow_signature (tests.test_routing_policy.StaticRoutingPolicyTests.test_reinstall_keeps_same_flow_signature) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK
